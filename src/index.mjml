@@ -39,7 +39,7 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column width="600px">
-                <mj-image padding="0" href="https://ecosup-tourisme.fr" src="https://img.mailinblue.com/3403292/images/content_library/original/66165699897809c7d1272410.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 mars 2024"/>
+                <mj-image padding="0" href="https://ecosup-tourisme.fr" src="https://img.mailinblue.com/3403292/images/content_library/original/66165699897809c7d1272410.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 13 avril 2024"/>
                </mj-column>
         </mj-section>
     <!--Section Titre-->
@@ -57,10 +57,10 @@
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="530px">
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                <strong>{{ contact.PRENOM }}</strong>, les métiers du Tourisme vous intéressent et vous souhaitez entreprendre une formation en alternance ?
+                <strong>{{ contact.PRENOM }}</strong>, les métiers du Tourisme vous intéressent et vous souhaitez entreprendre une <strong>formation en alternance</strong> ?
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                ECOSUP Tourisme vous ouvre ses portes ce 
+                <strong>ECOSUP Tourisme</strong> vous ouvre ses portes ce 
                 </mj-text>
                  <mj-text align="center" mj-class="d-date">
                 Samedi 13 avril de 9h30 à 13h.
@@ -76,7 +76,7 @@
         <mj-section background-color="#ffffff">
             <mj-group>
             <mj-column width="50%" padding="8px">
-                <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661656a4d7997d17f5f87bd7.jpg"  width="110px" alt="" />
+                <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661656a4d7997d17f5f87bd7.jpg"  width="110px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme " />
             </mj-column>
             <mj-column width="50%" padding="8px">
                 <mj-text padding="0" mj-class="d-text">
