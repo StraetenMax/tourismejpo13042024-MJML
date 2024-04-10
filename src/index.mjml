@@ -3,8 +3,8 @@
         <mj-title>JPO du 13 avril 2024 Ecosup Tourisme</mj-title>
             <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
         <mj-attributes>
-            <mj-class name="d-titre" font-size="30px" line-height="32px" font-weight="700" color="#1F3C90"/>
-            <mj-class name="d-sous-titre" font-size="18px" line-height="22px" font-weight="700" color="#787FBD"/>
+            <mj-class name="d-titre" font-size="38px" line-height="40px" font-weight="700" color="#1F3C90"/>
+            <mj-class name="d-sous-titre" font-size="16px" line-height="20px" font-weight="700" color="#787FBD"/>
             <mj-class name="d-date" font-size="20px" line-height="24px" font-weight="700" color="#1F3C90"/>
             <mj-class name="d-text" font-size="16px" line-height="20px" color="#14141f"/>
             <mj-class name="d-lieu" font-size="16px" line-height="20px" color="#626262" />
@@ -39,20 +39,17 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column width="600px">
-                <mj-image padding="0" href="https://ecosup-tourisme.fr" src="src/img/Tourisme13042024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 mars 2024"/>
+                <mj-image padding="0" href="https://ecosup-tourisme.fr" src="https://img.mailinblue.com/3403292/images/content_library/original/66165699897809c7d1272410.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 mars 2024"/>
                </mj-column>
         </mj-section>
     <!--Section Titre-->
         <mj-section background-color="#ffffff" padding="0">
                <mj-column width="530px">
-                <mj-text padding-bottom="0" mj-class="d-sous-titre" text-transform="uppercase">
-                   Invitation à la JPO du 13 avril 2024
+                <mj-text align="center" padding-bottom="0" mj-class="d-titre">
+                   Invitation à la Journée Portes Ouvertes
                 </mj-text>
-                <mj-text padding-top="0" padding-bottom="0" mj-class="d-titre">
-                Avec Ecosup Tourisme...
-                </mj-text>
-                <mj-text padding-top="0" mj-class="d-titre">
-                prenez votre envol !
+                <mj-text align="center" padding-top="0" mj-class="d-sous-titre" text-transform="uppercase">
+                Avec Ecosup Tourisme... prenez votre envol !
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -60,38 +57,26 @@
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="530px">
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                Attiré(e) par les métiers du Tourisme, avec l'alternance comme cadre de formation... vous disposez à <strong>Ecosup Tourisme</strong> des atouts pour atteindre ces objectifs : 
+                <strong>{{ contact.PRENOM }}</strong>, les métiers du Tourisme vous intéressent et vous souhaitez entreprendre une formation en alternance ?
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                - une <strong>structure à taille humaine</strong>,
-                </mj-text>
-                <mj-text  padding-top="0" padding-bottom="0" mj-class="d-text">
-                - une <strong>équipe administrative et éducative à l'écoute</strong> de l'apprenant,  
-                </mj-text>
-                <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                - des <strong>intervenants professionnels reconnus</strong> dans leur domaine,
-                </mj-text>
-                <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                - des <strong>formations certifiées</strong> par l'éducation nationale,
-                </mj-text>
-                <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                Encore des hésitations ? 
-                </mj-text>
-                <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                Alors rendez-vous, 
+                ECOSUP Tourisme vous ouvre ses portes ce 
                 </mj-text>
                  <mj-text align="center" mj-class="d-date">
                 Samedi 13 avril de 9h30 à 13h.
                 </mj-text>
                 <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
-                <strong>{{ contact.PRENOM }}</strong>, nous serons heureux de vous accueillir pour échanger sur votre projet professionnel... en toute convivialité !
+                 Venez découvrir notre campus et rencontrer nos intervenants professionnels.
+                </mj-text>
+                <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">
+                 Des questions ? Alors rendez-vous ce samedi, toute notre équipe se tiendra à votre disposition pour présenter l'ensemble de nos formations.
                 </mj-text>
             </mj-column>
         </mj-section>  
         <mj-section background-color="#ffffff">
             <mj-group>
             <mj-column width="50%" padding="8px">
-                <mj-image align="right" padding="0" src="src/img/clement.jpg"  width="110px" alt="" />
+                <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/661656a4d7997d17f5f87bd7.jpg"  width="110px" alt="" />
             </mj-column>
             <mj-column width="50%" padding="8px">
                 <mj-text padding="0" mj-class="d-text">
